@@ -148,4 +148,27 @@ footer {
     border-radius: 100%;
     background-color: #3C9A94;
   }
+  main {
+    position: relative;
+
+    padding-left: 35vw;
+  }
+  img {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+  }
+.heading {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  h1, p {
+    padding: 0;
+  }
+  h1, h2 {
+    padding-left: 10px;
+
+    text-align: left;
+  }
 }
